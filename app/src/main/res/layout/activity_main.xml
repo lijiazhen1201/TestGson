@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_bean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JavaBean" />
+
+    <Button
+        android:id="@+id/btn_listbean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List&lt;JavaBean>" />
+
+    <Button
+        android:id="@+id/btn_liststring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List&lt;String>" />
+
+    <Button
+        android:id="@+id/btn_listmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List&lt;Map&lt;String,Object>>" />
+
+    <Button
+        android:id="@+id/btn_listjoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Joke" />
+
+</LinearLayout>
